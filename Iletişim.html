@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="turkish">
+    <head>
+        <title> Ehasn Shahriary HomePage </title>
+        <link rel= "stylesheet" href="style2.css">
+        <meta charset=" UTF-8"/>
+        <link rel="stylesheet" type="text/css"
+        href=" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css "
+       <meta name="description" content=" Lore this My page about Myself "/>
+        <meta name="description" content=" Lore this My page about Myself "/>
+        
+        <meta name="viewport" content="width=device-width,initital-scale= 1"/>
+
+        <script type="text/javascript">
+            function validate()
+            {
+               var username = document.getElementById("uname");
+               var emil = document.getElementById("emil");
+               var radio= document.getElementById("erkekradio");
+             
+             
+              
+               if ( username.value.trim() =="" || emil.value.trim()=="")
+               {
+                  alert("Lütfen alan boş bırakmayın.");
+                  return false;
+               }
+
+                
+              else
+              {
+                true;
+              }
+               
+             }
+    
+             
+            </script>
+
+    </head>
+    <body>
+        <div class="minu">
+
+            <nav >
+                <ul>
+                    <li><a href ="AnaSayfa.html"> AnaSayfa</a></li>
+                    <li><a href ="Hakkında.html"> Hakkında</a></li>
+                    <li><a href ="Özgeçmiş.html"> Özgeçmiş</a></li>
+                    <li><a href ="Şehrim.html"> Şehrim </a></li>
+                    <li><a href ="Mirasmız.html"> Mirasmız</a></li>
+                    <li><a href ="Geriş.html"> Geriş </a></li>
+                    <li><a href ="Iletişim.html"> Iletişim </a></li>
+    
+                </ul>
+    
+     
+            </nav>
+
+
+        </div>
+
+        <div class="slider4">
+            <div class="content">
+                <div class="load"></div>
+            <div class="principal">
+                <h1> Iletişim </h1>
+            </div>
+
+       
+
+        <div class="Giriş_formu">
+                  
+            <form onsubmit=" return validate()" action="le.html" method="POST">
+
+             <label id="text2"> Ad_Soyad:</label>
+             <input id="uname" placeholder="AdSoyadınızı giriniz" type="text"/><br>
+             <label id="text3"> E_mail:</label>
+             <input id="emil" placeholder="E_mailAdresinizi giriniz" type="email"/><br>
+             <labe id="text4"l>Mesaj</label>
+             <input id="mes" placeholder="Mesajınızı yazınız" type="messagebox"/><br>
+             cinciyet: <input type="radio" name="gender" id="erkekradio" value="erkek"> erkek
+             <input type="radio" name="gender" id="radiokadın" value="kadın"> kadın <br><br>
+             öğrenmek istediğiniz programlar:
+             <select name="şehir" id="şehir">
+                <option value="boş">Lütfen bir program seçiniz </option>
+                <option value=" C++">C++</option>
+                <option value=" c_sharp"> C_sharp</option>
+                <option value=" javascript">Javascript</option>
+            </select> <br><br>
+             yaşadiğiniz şehir seçiniz... 
+             <select name="şehir" id="şehir">
+                 <option value="boş">Lütfen bir şehir seçiniz </option>
+                 <option value=" Istanbul">Istanbul</option>
+                 <option value=" Ankara">Ankara</option>
+                 <option value=" Sakarya">Sakarya</option>
+                 <option value=" Antalıya">Antalıya</option>
+                 <option value=" Eskişehir">Eskişehir</option>
+             </select> <br><br>
+             <button id="button2" type="reset">Temizle</button>
+             <button id="button3" type="submit">Gönder</button>
+      
+          </form> 
+        </div>
+
+        </div>
+
+    </div>
+        
+
+       
+    
+     </body>
+
+
+</html>
+
